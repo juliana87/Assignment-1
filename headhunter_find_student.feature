@@ -14,11 +14,11 @@ Then I should see: "No matching students found"
 Scenario: see top ranked students
 Given the following student database
 Name            |  Rank | Activity level |  Work   
-Alex Stevens   |   2	|		8		 |	No
+Alex Stevens    |   2	|		8		 |	No
 Claire Williams	|   3	|		10		 |	Yes
-Fabio Santos	|   5	|		5		 |	Yes
-John Snow		|   4	|		9	 	 |  Yes
-Steve Lee		|   1	|       10       |  Yes
+Fabio Santos	  |   5	|		5		 |	Yes
+John Snow	    	|   4	|		9	 	 |  Yes
+Steve Lee	    	|   1	|       10       |  Yes
 
 When I search for the following criteria 
 Rank  | <= 3
